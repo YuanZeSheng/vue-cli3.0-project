@@ -1,0 +1,107 @@
+/**
+ * * @ 2018-11-10
+ * * @ author mikeYuan 
+ * * @ pandanjiajia css base
+ */
+
+// clear
+.clear {display: block;content: ' ';width: 100%;clear:both;height: 0;visibility: hidden;}
+
+// float
+.fll {float: left;}
+.flr	{float: right;}
+.none {display: none;}
+
+// display-block
+.display-block	{display: block;}
+.display-inline-block {display:inline-block;}
+.flex {display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: flex;}
+
+// position
+.fixed {position: fixed;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.absoluteAllScreen {position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.fixedAllScreen {position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+
+// padding
+.padding5 {padding: 5px;} 
+.padding10 {padding: 10px;} 
+.padding20 {padding: 20px;} 
+.padding30 {padding: 30px;}
+.paddingTop10 {padding-top: 10px;} .paddingTop20 {padding-top: 20px;} .paddingTop30 {padding-top: 30px;}
+.paddingBottom10 {padding-bottom: 10px;} .paddingBottom20 {padding-bottom: 20px;} .paddingBottom30 {padding-bottom: 30px;}
+.paddingLeft10 {padding-left: 10px;} .paddingLeft20 {padding-left: 20px;} .paddingLeft20 {padding-left: 30px;}
+.paddingRight10 {padding-right: 10px;} .paddingRight20 {padding-right: 20px;} .paddingRight30 {padding-right: 30px;}
+
+// margin
+.margin5 {margin: 5px}
+.margin10 {margin: 10px}
+.margin20 {margin: 20px}
+.margin30 {margin: 30px}
+.marginTop5 {margin-top: 5px} .marginTop10 {margin-top: 10px} .marginTop20 {margin-top: 20px} .marginTop30 {margin-top: 30px}
+.marginBottom5 {margin-bottom: 5px} .marginBottom10 {margin-bottom: 10px} .marginBottom20 {margin-bottom: 20px} .marginBottom30 {margin-bottom: 30px}
+.marginLeft5 {margin-left: 5px} .marginLeft10 {margin-left: 10px} .marginLeft20 {margin-left: 20px} .marginLeft30 {margin-left: 30px}
+.marginRight5 {margin-right: 5px} .marginRight10 {margin-right: 10px} .marginRight20 {margin-right: 20px} .marginRight30 {margin-right: 30px}
+
+// font
+.text-left 	{text-align: left;}
+.text-right	{text-align: right;}
+.text-center	{text-align: center;}
+.text-bold 	{font-weight: bold;}
+
+// cursor
+.cursor {cursor: pointer;}
+
+// vertical
+.vertical-top {vertical-align: top;}
+.vertical-middle {vertical-align: middle;}
+.vertical-bottom {vertical-align: bottom;}
+
+// color
+.color-white {background: #fff}
+.color-blue {background: #409EFF}
+.color-succ {background: #67C23A}
+.color-warning {background: #E6A23C}
+.color-err {background: #F56C6C}
+.color-gray {background: #909399}
+
+// font-size
+.font-12 {font-size: 12px}
+.font-14 {font-size: 14px}
+.font-16 {font-size: 16px}
+.font-18 {font-size: 18px}
+.font-20 {font-size: 20px}
+.font-22 {font-size: 22px}
+.font-24 {font-size: 24px}
+.font-26 {font-size: 26px}
+.font-28 {font-size: 28px}
+.font-30 {font-size: 30px}
+
+// font-list
+
+// hover
+.hoverRed:hover {
+  cursor: pointer;
+  color: red;
+}
+//fade(过渡)
+/*.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to  {
+  opacity: 0;
+}*/
+.fade-enter {
+  opacity:0;
+}
+.fade-leave{
+  opacity:1;
+}
+.fade-enter-active{
+  transition:opacity .5s;
+}
+.fade-leave-active{
+  opacity:0;
+  transition:opacity .5s;
+}
