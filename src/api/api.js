@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // axios 配置
-axios.defaults.baseURL = 'http://52.83.134.86:8008'
+axios.defaults.baseURL = ''
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 axios.defaults.withCredentials = true; //让ajax携带cookie
 // axios 其他配置
@@ -76,7 +76,7 @@ export default {
     },
     // 示例
     handleGetApiTest(param) {
-      return Get('/crm_student/students/', this.makeFormData1(param))
+      return Get('/***/***/', this.makeFormData1(param))
     },
 }
 

@@ -100,12 +100,12 @@ module.exports = {
 		host: "localhost",
 		port: 8888, // 端口号
 		https: false, // https:{type:Boolean}
-		open: true, //配置自动启动浏览器  http://172.16.1.12:7071/rest/mcdPhoneBar/ 
+		open: true, //配置自动启动浏览器  
 		hotOnly: true, // 热更新
 		// proxy: 'http://localhost:8000'   // 配置跨域处理,只有一个代理
 		// proxy: { //配置自动启动浏览器
 			// "/api*": {
-			// 	target: "http://52.83.134.86:8008",
+			// 	target: "",
 			// 	changeOrigin: true,
 			// 	// ws: true,//websocket支持
 			// 	secure: false
